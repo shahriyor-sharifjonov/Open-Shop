@@ -1,0 +1,444 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+.m0{
+  margin: 0;
+}
+body{
+  font-family: "Montserrat";
+}
+.myContainer{
+  max-width: 1200px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.header__topp{
+  background: #313131;
+}
+.header__top{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5px;
+}
+.header__top__link{
+  color: #fff;
+  transition: 0.5s;
+  text-decoration: none;
+}
+.header__top__link:hover{
+  color: #fff;
+}
+.header__top__icon{
+  color: #fff;
+  margin-right: 8px;
+}
+.header__top__link{
+  margin-right: 40px;
+}
+.header__top__bottom{
+  display: flex;
+}
+.header__logo{
+  padding-right: 10px;
+}
+.header__search__form{
+  display: flex;
+}
+.header__search{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header__search__input{
+  width: 630px;
+  height: 50px;
+  padding-left: 10px;
+  border: 1px solid #313131;
+}
+.header__search__btn{
+  background: #313131;
+  height: 50px;
+  border: none;
+  color: #fff;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+.header__search__icon{
+  margin-right: 7px;
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+.navbar-toggler-icon{
+  color: #fff;
+}
+.header__menu__link{
+  color: #fff;
+}
+.header__menu__link{
+  font-size: 18px;
+  line-height: 80px;
+  color: #313131;
+}
+.myindicator{
+  color: #ABABAB;
+  cursor: pointer;
+}
+.myindicator:first-child{
+  margin-right: 25px;
+}
+.active {
+  color: #313131;
+}
+.carousel__img{
+  margin: 0 auto;
+}
+.carousel__title{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 70px;
+  text-align: center;
+  max-width: 624px;
+}
+.carousel__btn{
+  background: #313131;
+  width: 190px;
+  height: 50px;
+  color: #fff;
+  border: none;
+  margin-top: 120px;
+}
+.carouserl__right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.carousel__img{
+  max-width: 740px;
+  width: 100%;
+}
+.carousel-indicators{
+  margin: 0;
+  left: auto;
+}
+.intro{
+  margin-top: 80px;
+  margin-bottom: 30px;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.intro__item{
+  background: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+.intro__item:nth-of-type(1){
+  grid-column:span 2;
+  grid-row: span 2;
+  background: url(../images/intro__1.png) center / cover no-repeat;
+  background-color: #F4F4F4;
+}
+.intro__item:nth-of-type(2){
+  grid-column:span 2;
+  grid-row: span 1;
+  background: url(../images/intro__2.png) center / cover no-repeat;
+}
+.intro__item:nth-of-type(3){
+  grid-column:span 1;
+  grid-row: span 1;
+  background: url(../images/intro__3.png) center / cover no-repeat;
+  background-color: #F4F4F4;
+}
+.intro__item:nth-of-type(4){
+  grid-column:span 1;
+  grid-row: span 1;
+  background: url(../images/intro__4.png) center / cover no-repeat;
+  background-color: #F4F4F4;
+}
+.intro__circle{
+  width: 70px;
+  height: 70px;
+  background: #313131;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.myBtn{
+  background: #313131;
+  width: 190px;
+  height: 50px;
+  color: #fff;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+}
+.myBtn:focus{
+  outline: none;
+}
+.intro__btn{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.introo{
+  margin-bottom: 70px;
+}
+/* ===================Phones=================== */
+.phones__div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.phones__item{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.phones__div__div .phones__item:nth-of-type(1){
+  background: url(../images/phone__1.png);
+}
+.phones__div__div .phones__item:nth-of-type(2){
+  background: url(../images/phone__2.png);
+}
+.phones__div__div2 .phones__item:nth-of-type(1){
+  background: url(../images/phone__3.png);
+}
+.phones__div__div2 .phones__item:nth-of-type(2){
+  background: url(../images/phone__4.png);
+}
+.title{
+  margin-bottom: 30px;
+}
+.phones__btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+.phones__div__div{
+  display: flex;
+}
+.phones__div__div2{
+  display: flex;
+}
+.phones__item__title{
+  font-weight: 500;
+  color: #313131;
+}
+.phones__item__p{
+  color: #313131;
+}
+/* ======================Laptops====================== */
+.laptops__div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.laptops__item{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.laptops__div__div .laptops__item:nth-of-type(1){
+  background: url(../images/laptop__1.png) center / cover no-repeat;
+}
+.laptops__div__div .laptops__item:nth-of-type(2){
+  background: url(../images/laptop__2.png) center / cover no-repeat;
+}
+.laptops__div__div2 .laptops__item:nth-of-type(1){
+  background: url(../images/laptop__3.png) center / cover no-repeat;
+}
+.laptops__div__div2 .laptops__item:nth-of-type(2){
+  background: url(../images/laptop__4.png) center / cover no-repeat;
+}
+.laptops__btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.laptops__div__div{
+  display: flex;
+}
+.laptops__div__div2{
+  display: flex;
+}
+.laptops__item__title{
+  font-weight: 500;
+  color: #313131;
+}
+.laptops__item__p{
+  color: #313131;
+}
+/* ===================Play Station 5=================== */
+.ps5{
+  background: url(../images/PS5.png) center / cover no-repeat;
+}
+.ps5__logo{
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.ps5__title{
+  margin-bottom: 70px;
+  font-weight: 600;
+  color: #313131;
+}
+.ps5__btn{
+  margin-bottom: 130px;
+}
+/* =========================Top========================= */
+.top__div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top__item{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.top__div__div .top__item:nth-of-type(1){
+  background: url(../images/top__1.png) center / cover no-repeat;
+}
+.top__div__div .top__item:nth-of-type(2){
+  background: url(../images/top__2.png) center / cover no-repeat;
+}
+.top__div__div2 .top__item:nth-of-type(1){
+  background: url(../images/top__3.png) center / cover no-repeat;
+}
+.top__div__div2 .top__item:nth-of-type(2){
+  background: url(../images/top__4.png) center / cover no-repeat;
+}
+.top__btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+.top__div__div{
+  display: flex;
+}
+.top__div__div2{
+  display: flex;
+}
+.top__item__title{
+  font-weight: 500;
+  color: #313131;
+}
+.top__item__p{
+  color: #313131;
+}
+.footer{
+  background: #313131;
+  padding: 45px 0;
+}
+.foter{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__logo{
+  margin-right: 15px;
+}
+.footer__form{
+  display: flex;
+  align-items: center;
+}
+.form__action{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__form__btn{
+  border: 1px solid #fff;
+  margin-right: 50px;
+}
+.footer__form__p{
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+}
+.footer__form__input{
+  height: 50px;
+  border: 1px solid #fff;
+  padding-left: 15px;
+  max-width: 320px;
+  width: 100%;
+}
+.footer__social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+.footer__socials{
+  font-size: 40px;
+  color: #fff;
+  margin: 15px;
+}
+.footer__list{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 50px;
+}
+.footer__link{
+  color: #fff;
+  font-size: 18px;
+  margin: 0 15px 0 15px;
+}
+/* ===============Product=============== */
+.product{
+  cursor: pointer;
+  transition: 0.8s;
+  position: relative;
+}
+.yurak{
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+.yurak:hover{
+  color: red;
+}
+.product:hover{
+  border: 1px solid #F4F4F4;
+}
+.product:hover .yurak{
+  display: block;
+}
+.myBtn:hover{
+  background: #5c5858;
+}
