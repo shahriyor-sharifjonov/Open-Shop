@@ -434,7 +434,7 @@ body{
   color: red;
 }
 .product:hover{
-  border: 1px solid #F4F4F4;
+  border: 1px solid #666666;
 }
 .product:hover .yurak{
   display: block;
